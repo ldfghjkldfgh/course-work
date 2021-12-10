@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Электронная библиотека</title>
+    <link rel="shortcut icon" href="./images/icon.png" />
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Murecho:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h4>Онлайн либ</h4>
+        </div>
+        <ul class="nav-links">
+            <li class="nav-link-not-selected">
+                <a href="./main.html">Главная</a>
+            </li>
+            <li class="nav-link-selected">
+                <a href="./library.html">Библиотека</a>
+            </li>
+            <li class="nav-link-not-selected">
+                <a href="./news.html">Новости</a>
+            </li>
+            <li class="nav-link-not-selected">
+                <a href="./contact.html">Контакты</a>
+            </li>
+        </ul>
+        <div class="burger">
+            <div class="burger-line1"></div>
+            <div class="burger-line2"></div>
+            <div class="burger-line3"></div>
+        </div>
+    </nav>
+    <div class="content content-library">
+        
+        <form class="search-form">
+            <div class="search-form-line">
+            <div class="search-form-field">
+                <input type="text" name="q" required/>
+                <label for="q" class="label-name">
+                    <span class="label-content-name">Название книги</span>
+                </label>
+            </div>
+            </div>
+            <div style="padding-right:10%;">
+                <button class="search-button" type="submit">Искать</button>
+            </div>
+        </form>
+        <div class="library-row">
+            <div class="card-library">
+                <a href="./book1.html" target="_blank">
+                    <img class="card-library-book-cover" src="./images/books/cover1.png" alt="">
+                </a>
+                <span class="card-library-book-title">Полное собрание произведений о Шерлоке Холмсе</span>
+                <span class="card-library-book-author">Дойл Артур Конан</span>
+                <span class="card-library-book-description">В одном томе собраны все произведения о знаменитом сыщике Шерлоке Холмсе и его верном спутнике докторе Уотсоне...</span>
+                <div class="card-library-book-btns">
+                    <a class="card-library-book-btn-details" href="./book1.html" target="_blank">Подробнее</a>
+                    <a class="card-library-book-btn-download" href="./books/f.pdf" download target="_blank">Скачать</a>
+                </div>
+            </div>
+            
+            <div class="card-library">
+                
+                <a href="#" target="_blank">
+                    <img class="card-library-book-cover" src="./images/books/cover2.png" alt="">
+                </a>
+                <span class="card-library-book-title">Грозовой перевал</span>
+                <span class="card-library-book-author">Бронте Эмили</span>
+                <span class="card-library-book-description">Жизнь Эмили Бронте, создательницы романтически-мрачного "Грозового перевала", была наполнена драматическими переживаниями...</span>
+                <div class="card-library-book-btns">
+                    <a class="card-library-book-btn-details" href="#" target="_blank">Подробнее</a>
+                    <a class="card-library-book-btn-download" href="./books/f.pdf" download target="_blank">Скачать</a>
+                </div>
+            </div>
+            
+            <div class="card-library">
+                <a href="#" target="_blank">
+                    <img class="card-library-book-cover" src="./images/books/cover3.png" alt="">
+                </a>
+                <span class="card-library-book-title">Клуб любителей приключений. Айвенго</span>
+                <span class="card-library-book-author">Скотт Вальтер</span>
+                <span class="card-library-book-description">Классический исторический роман "Айвенго" погружает читателя в атмосферу Средневековья...</span>
+                <div class="card-library-book-btns">
+                    <a class="card-library-book-btn-details" href="#" target="_blank">Подробнее</a>
+                    <a class="card-library-book-btn-download" href="./books/f.pdf" download target="_blank">Скачать</a>
+                </div>
+            </div>
+            
+            <div class="card-library">
+                <a href="#" target="_blank">
+                    <img class="card-library-book-cover" src="./images/books/cover4.png" alt="">
+                </a>
+                <span class="card-library-book-title">Поллианна</span>
+                <span class="card-library-book-author">Портер Элинор</span>
+                <span class="card-library-book-description">За годы своей писательской карьеры Элинор Портер создала четыре тома коротких рассказов и четырнадцать романов...</span>
+                <div class="card-library-book-btns">
+                    <a class="card-library-book-btn-details" href="#" target="_blank">Подробнее</a>
+                    <a class="card-library-book-btn-download" href="./books/f.pdf" download target="_blank">Скачать</a>
+                </div>
+            </div>
+            
+            <div class="card-library">
+                <a href="#" target="_blank">
+                    <img class="card-library-book-cover" src="./images/books/cover5.png" alt="">
+                </a>
+                <span class="card-library-book-title">Дары волхвов</span>
+                <span class="card-library-book-author">О. Генри</span>
+                <span class="card-library-book-description">Волхвы, как вам известно, были мудрыми старцами - волшебниками, которые принесли свои дары Младенцу в яслях...</span>
+                <div class="card-library-book-btns">
+                    <a class="card-library-book-btn-details" href="#" target="_blank">Подробнее</a>
+                    <a class="card-library-book-btn-download" href="./books/f.pdf" download target="_blank">Скачать</a>
+                </div>
+            </div>
+
+            <div class="card-library">
+                <a href="#" target="_blank">
+                    <img class="card-library-book-cover" src="./images/books/no-cover.png" alt="Нет обложки">
+                </a>
+                <span class="card-library-book-title">Harry Potter 1: Philosopher's Stone</span>
+                <span class="card-library-book-author">Роулинг Джоан Кэтлин</span>
+                <span class="card-library-book-description">Strange things always seem to happen when Harry Potter is around. Things that unsettle his guardians, the Dursleys. They...</span>
+                <div class="card-library-book-btns">
+                    <a class="card-library-book-btn-details" href="#" target="_blank">Подробнее</a>
+                    <a class="card-library-book-btn-download" href="./books/f.pdf" download target="_blank">Скачать</a>
+                </div>
+            </div>
+            
+            <div class="card-library">
+                <a href="#" target="_blank">
+                    <img class="card-library-book-cover" src="./images/books/cover-7.webp" alt="">
+                </a>
+                <span class="card-library-book-title">Долина забвения</span>
+                <span class="card-library-book-author">Эми Тан</span>
+                <span class="card-library-book-description">Юная Вайолет считает себя настоящей американкой, хотя живет не в США, а в Шанхае начала XX века, где ее красавица-мать, у которой...</span>
+                <div class="card-library-book-btns">
+                    <a class="card-library-book-btn-details" href="#" target="_blank">Подробнее</a>
+                    <a class="card-library-book-btn-download" href="./books/f.pdf" download target="_blank">Скачать</a>
+                </div>
+            </div>
+        </div>
+        <div class="library-center-block">
+            <div class="library-pagination">
+                <a class="library-pagination-button library-pagination-button-disabled" href="#">&#60;&#60;</a>
+                <a class="library-pagination-button library-pagination-button-disabled" href="#">&#60;</a>
+                <a class="library-pagination-button library-pagination-button-active" href="./library.html?page=1">1</a>
+                <a class="library-pagination-button library-pagination-button-active" href="./library.html?page=2">></a>
+                <a class="library-pagination-button library-pagination-button-active" href="./library.html?page=5">>></a>
+            </div>
+        </div>
+    </div>
+    <script src="smooth-nav-bar.js"></script>
+</body>
+</html>
